@@ -15,3 +15,20 @@ const Card = (props) => {
 }
 
 export default Card;
+
+// const promise = new Promise((resolve, reject)=>{
+//     if (true){
+//         resolve('It works!');
+//     }else{
+//         reject('Error, It broke')
+//     }
+// })
+
+// promise
+//     .then(result => result + '!')   
+//     .then(result2 => reult2 + '?')
+//     .catch(() => console.log('error!'))
+//     .then(result3 => {
+//         throw Error;
+//         console.log(result3 = '!');
+//     })
